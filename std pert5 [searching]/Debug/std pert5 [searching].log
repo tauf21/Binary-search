@@ -1,0 +1,28 @@
+﻿Build started 25/10/2018 02:26:23.
+     1>Project "F:\Vs Studio 2010\std pert5 [searching]\std pert5 [searching]\std pert5 [searching].vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\std pert5 [searching].unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt binnary.cpp
+         binnary.cpp
+     1>f:\vs studio 2010\std pert5 [searching]\std pert5 [searching]\binnary.cpp(86): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\std pert5 [searching].exe.embed.manifest.res" "Debug\std pert5 [searching]_manifest.rc" 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Vs Studio 2010\std pert5 [searching]\Debug\std pert5 [searching].exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\std pert5 [searching].exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Vs Studio 2010\std pert5 [searching]\Debug\std pert5 [searching].pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Vs Studio 2010\std pert5 [searching]\Debug\std pert5 [searching].lib" /MACHINE:X86 "Debug\std pert5 [searching].exe.embed.manifest.res"
+         Debug\binnary.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\std pert5 [searching].exe.embed.manifest" /manifest "Debug\std pert5 [searching].exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         std pert5 [searching].vcxproj -> F:\Vs Studio 2010\std pert5 [searching]\Debug\std pert5 [searching].exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\std pert5 [searching].unsuccessfulbuild".
+         Touching "Debug\std pert5 [searching].lastbuildstate".
+     1>Done Building Project "F:\Vs Studio 2010\std pert5 [searching]\std pert5 [searching]\std pert5 [searching].vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.54
